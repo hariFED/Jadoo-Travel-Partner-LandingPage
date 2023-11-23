@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Volkhov:wght@700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.poppins {
+  font-family: "Poppins", sans-serif;
+}
+
+.sansfont {
+  font-family: "Open Sans", sans-serif;
+}
+.headingfont {
+  font-family: "Volkhov", serif;
+}
+.bg-image {
+  background-image: url("../src/assets/images/bg-image.png");
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-size: contain;
+}
+
+.play-icon {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-top: 5px solid transparent;
+  border-left: 10px solid #ffffff;
+  border-bottom: 5px solid transparent;
+}
