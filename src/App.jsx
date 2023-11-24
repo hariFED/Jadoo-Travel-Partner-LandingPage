@@ -1,4 +1,5 @@
 import Hero from "./pages/Hero"
+import Category from "./pages/Category"
 
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <>
       <div className="" >
         <Hero />
+        <Category />
       </div>
     </>
   )
