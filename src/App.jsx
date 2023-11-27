@@ -1,5 +1,6 @@
-import Hero from "./pages/Hero"
-import Category from "./pages/Category"
+import Hero from "./pages/Hero";
+import Category from "./pages/Category";
+import Destinations from "./pages/Destinations";
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <div className="" >
         <Hero />
         <Category />
+        <Destinations/>
       </div>
     </>
   )
