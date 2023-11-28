@@ -1,6 +1,7 @@
 import Hero from "./pages/Hero";
 import Category from "./pages/Category";
 import Destinations from "./pages/Destinations";
+import Plans from "./pages/Plans";
 
 
 function App() {
@@ -8,10 +9,11 @@ function App() {
 
   return (
     <>
-      <div className="" >
+      <div className="box-border " >
         <Hero />
         <Category />
-        <Destinations/>
+        <Destinations />
+        <Plans />
       </div>
     </>
   )
